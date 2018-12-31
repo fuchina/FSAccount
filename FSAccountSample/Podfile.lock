@@ -1,5 +1,5 @@
 PODS:
-  - FSAccount (1.0.6.6):
+  - FSAccount (1.1.0):
     - FSBaseController
     - WechatOpenSDK (= 1.8.3)
     - YYKit (= 1.0.9)
@@ -44,7 +44,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FSAccount: 2abe0f8c6ad2192ac3d039ae1c975c96b0756ba5
+  FSAccount: af7aeae6310833fe33f65fb21f05e88bb02210b2
   FSBaseController: d227485c294c0797e77c14d74fc39d498d6a37e1
   FSCalculator: 3ab79307b008ebf07b4fa7fe827f418d7c65fd14
   FSKit: 1578169720d621fb12b806a8d0faf8ba95afb0e2
