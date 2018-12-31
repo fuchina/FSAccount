@@ -25,7 +25,7 @@
  */
 + (BOOL)balanceCheck:(NSArray *)array;
 
-//+ (void)copySQLData;1
+//+ (void)copySQLData;
 
 //+ (FSAccEntity *)accEntityGetDataFromEntity:(SQLEntity *)entity;
 
