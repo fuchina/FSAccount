@@ -1,0 +1,7 @@
+platform:ios,'8.2'
+
+target 'FSAccountSample' do
+
+  pod 'FSAccount', :path => '../'
+
+end
