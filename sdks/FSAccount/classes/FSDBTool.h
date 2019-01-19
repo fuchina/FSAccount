@@ -71,12 +71,12 @@
 
 #pragma mark From FSDBSupport
 
-+ (void)sendDiary;
-+ (void)importDiary;
-+ (void)sendPasswords;
++ (void)sendDiary:(NSString *)password;
++ (void)importDiary:(NSString *)password;
++ (void)sendPasswords:(NSString *)password;
 + (void)sendAccountList:(NSString *)accountName entity:(FSSQLEntity *)entity;
-+ (void)exportTables:(NSArray *)tables;
-+ (void)sendContacts;
++ (void)exportTables:(NSArray *)tables password:(NSString *)password;
++ (void)sendContacts:(NSString *)password;
 + (NSArray<FSBestAccountModel *> *)sortForResults:(NSMutableArray<FSBestAccountModel *> *)list;
 
 @end
