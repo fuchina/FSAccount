@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CE5DCDE4F01129C76F80859414FC8188"
+               BlueprintIdentifier = "C913D754FD64FE59162BFF62ECD68B1C"
                BlueprintName = "FSBaseController"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libFSBaseController.a">

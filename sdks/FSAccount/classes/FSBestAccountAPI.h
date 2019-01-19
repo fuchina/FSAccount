@@ -87,7 +87,7 @@ typedef NS_ENUM(NSInteger, FSBestAccountSubjectType) {
 + (NSArray<FSBestSubjectModel *> *)subSubjectForType:(NSString *)be forTable:(NSString *)table;
 
 // 账本数据列表-科目
-+ (NSMutableArray<FSBestAccountModel *> *)listForSubject:(NSString *)subject table:(NSString *)table page:(NSInteger)page track:(BOOL)track asc:(BOOL)asc unit:(NSInteger)unit;
++ (NSMutableArray<FSBestAccountModel *> *)listForSubject:(NSString *)subject table:(NSString *)table track:(BOOL)track asc:(BOOL)asc;
 
 + (NSMutableArray<FSBestAccountModel *> *)listForSubjectOfDetail:(NSString *)subject table:(NSString *)table page:(NSInteger)page track:(BOOL)track asc:(BOOL)asc isAll:(BOOL)isAll jeSort:(NSInteger)jeSort unit:(NSInteger)unit start:(NSInteger)start end:(NSInteger)end isPlus:(BOOL)isPlus;
 

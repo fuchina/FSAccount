@@ -29,4 +29,6 @@
 
 - (void)reloadSection:(NSInteger)section;
 
+- (void)deleteRefresh;
+
 @end

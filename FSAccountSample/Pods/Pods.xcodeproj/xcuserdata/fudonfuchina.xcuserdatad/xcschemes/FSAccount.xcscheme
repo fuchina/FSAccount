@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D5446C88219B169C58F92F4D9BD54A9E"
+               BlueprintIdentifier = "81DDB72129856F1506C80F60992E3592"
                BlueprintName = "FSAccount"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "FSAccount">
