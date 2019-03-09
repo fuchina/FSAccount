@@ -14,6 +14,7 @@
 @property (nonatomic,copy) NSString                 *table;
 @property (nonatomic,assign) BOOL                   editMode;
 @property (nonatomic,copy) NSString                 *bz;
+@property (nonatomic,copy) NSString                 *te;
 @property (nonatomic,copy)void (^selectedBZ)(FSBestBZViewController *c,FSBestMobanModel *model);
 @property (nonatomic,copy)void (^deleteEvent)(FSBestBZViewController *c);
 

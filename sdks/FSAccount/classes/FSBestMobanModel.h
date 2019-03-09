@@ -28,6 +28,8 @@
 @property (nonatomic,copy) NSString     *fq;    // 频数
 @property (nonatomic,copy) NSString     *bz;    // 备注
 
+@property (nonatomic,copy) NSString     *te;    // type 类别
+
 // 非field
 @property (nonatomic,copy) NSAttributedString     *showA;
 @property (nonatomic,copy) NSAttributedString     *showB;

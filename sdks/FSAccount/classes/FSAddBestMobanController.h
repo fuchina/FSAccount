@@ -12,6 +12,7 @@
 
 @property (nonatomic,copy) NSString     *account;
 @property (nonatomic,copy) NSString     *bz;
+@property (nonatomic,copy) NSString     *te;
 @property (nonatomic,copy)void (^addSuccess)(FSAddBestMobanController *c);
 
 @end

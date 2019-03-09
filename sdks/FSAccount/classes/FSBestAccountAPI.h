@@ -117,12 +117,14 @@ typedef NS_ENUM(NSInteger, FSBestAccountSubjectType) {
 
 + (NSInteger)firstTimeForTable:(NSString *)table;
 
-+ (NSMutableArray<NSString *> *)allMobanForTable:(NSString *)table page:(NSInteger)page;
++ (NSMutableArray<NSString *> *)allMobanForTable:(NSString *)table;
 + (NSString *)mobanTableForTable:(NSString *)table;
 
-+ (NSString *)addMobanForTable:(NSString *)table aj:(FSBestSubjectModel *)aj bj:(FSBestSubjectModel *)bj bz:(NSString *)bz;
++ (NSString *)addMobanForTable:(NSString *)table aj:(FSBestSubjectModel *)aj bj:(FSBestSubjectModel *)bj bz:(NSString *)bz te:(NSString *)te;
 
-+ (NSArray<FSBestMobanModel *> *)mobansForTable:(NSString *)table bz:(NSString *)bz;
++ (NSArray<NSString *> *)bzInMobansForTable:(NSString *)table te:(NSString *)te;
++ (NSArray<FSBestMobanModel *> *)mobansForTable:(NSString *)table bz:(NSString *)bz te:(NSString *)te;
++ (NSString *)changeMobanTE:(NSString *)table old:(NSString *)old new:(NSString *)newTE;
 
 + (NSMutableArray<NSDictionary *> *)allFlowsForTable:(NSString *)table page:(NSInteger)page;
 
