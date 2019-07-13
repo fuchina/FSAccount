@@ -7,7 +7,7 @@
 //
 
 #import "FSBestSubjectBaseModel.h"
-#import <FSTuple.h>
+#import "FSTuple.h"
 
 @interface FSBestSubjectModel : FSBestSubjectBaseModel
 

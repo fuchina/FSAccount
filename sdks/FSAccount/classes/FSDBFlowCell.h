@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <FSTuple.h>
+#import "FSTuple.h"
 
 @interface FSDBFlowCell : UITableViewCell
 
