@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FSAccount'
-  s.version          = '1.5'
+  s.version          = '1.6'
   s.summary          = 'FSAccount is a tool for show logs when app run'
   s.description      = <<-DESC
 		This is a very small software library, offering a few methods to help with programming.
@@ -20,10 +20,9 @@ Pod::Spec.new do |s|
   s.frameworks = 'UserNotifications','MessageUI','AudioToolbox','AVFoundation'
 
   s.libraries  = 'c++', 'sqlite3', 'z'
-  
-#  s.dependency 'FSJZBus'
-  
+    
   s.dependency   'YYKit','1.0.9'
   s.dependency   'WechatOpenSDK','1.8.3'
+  s.dependency   'FSBaseController'
 
 end
